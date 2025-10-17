@@ -1,6 +1,5 @@
 package ECommerceSystem.decorators;
 import ECommerceSystem.factory.Payment;
-
 public class CashbackDecorator extends PaymentDecorator{private double cashback;
     public CashbackDecorator(Payment payment, double cashback){
         super(payment);
